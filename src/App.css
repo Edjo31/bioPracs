@@ -1,0 +1,68 @@
+html {
+    background-image: url("./assets/img/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.console {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-image: url(assets/img/noisy-texture-300x300-o16-d41-c-b52b57-t1.png);
+    background-color: rgb(131, 21, 235);
+    opacity: 80%;
+    top: 25%;
+    left: 25%;
+    box-shadow: 5px 5px rgba(9, 3, 15, 0.144);
+    border-radius: 2px;
+}
+.console-info-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    font-family: "Courier New", Courier, monospace;
+
+    text-align: center;
+}
+
+.darkMode {
+    background-color: black;
+}
+
+.toogleDarkMode:hover {
+    cursor: pointer;
+}
+.console-info {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-image: url(assets/img/noisy-texture-300x300-o16-d41-c-b52b57-t1.png);
+    overflow: overlay;
+    opacity: 80%;
+    top: 0%;
+
+    border-left: 1px solid rgba(253, 253, 253, 0.356);
+    border-bottom: 1px solid rgba(253, 253, 253, 0.356);
+    left: 50%;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.console-info-bio {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/img/noisy-texture-300x300-o16-d41-c-b52b57-t1.png);
+    overflow: overlay;
+    opacity: 80%;
+    top: 0%;
+
+    border-right: 1px solid rgba(253, 253, 253, 0.356);
+    border-bottom: 1px solid rgba(253, 253, 253, 0.356);
+    left: 0%;
+    box-shadow: none;
+    border-radius: 2px;
+}
