@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useDarkMode } from "../scripts/darkMode"; 
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
  function NavBar({ switchDarkMode }){
 
 
@@ -19,7 +20,7 @@ import { useDarkMode } from "../scripts/darkMode";
           </section>
 
           <section className="casa">
-       <a href=""  > hola</a>
+          <Link to="/proyectos">Ir a Proyectos</Link>
             
           </section>
         </div>
