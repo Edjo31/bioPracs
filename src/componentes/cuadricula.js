@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useDarkMode } from "../scripts/darkMode"; 
+import NavBar from "./navBar";
 
 import "../App.css";
 
@@ -9,12 +10,9 @@ function Cuadricula() {
 
   return (
     <body>
+         <NavBar switchDarkMode={switchDarkMode} />
       <div className="cuadricula ">
-        <FontAwesomeIcon
-          className="toogleDarkMode"
-          icon={imgSwitch}
-          onClick={switchDarkMode} // Usar la función del modo oscuro
-        ></FontAwesomeIcon>
+   
 
         <section className={"console " + darkModeS}>
           <section className={darkModeS + " console-info"}>

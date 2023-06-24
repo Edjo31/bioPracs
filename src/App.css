@@ -66,3 +66,25 @@ html {
     box-shadow: none;
     border-radius: 2px;
 }
+.nav-container{
+position: absolute;
+width: 53%;
+height: 5%;
+border-radius: 10%;
+background-color: rgba(167, 22, 22, 0.13);
+
+
+left: 25%;
+
+}
+.darkMode-container{
+   position: absolute;
+   top: 25%;
+   left: 2%;
+}
+.casa{
+    position: absolute;
+    top:-50%;
+    left: 20%;
+    
+}
